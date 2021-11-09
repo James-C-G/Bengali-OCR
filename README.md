@@ -12,8 +12,9 @@
 
 
 ## 1. General Info
-This application provides a Bengali optical character recognition (OCR) application through the 
-use of four main models - one for characters and modifiers, and two for compound characters. 
+This application was originally developed for my third year disseration, it provides a 
+Bengali optical character recognition (OCR) application through the use of four main 
+models - one for characters and modifiers, and two for compound characters. 
 Each of these models have been built using one of two datasets. The Ekush and Matri Vasha 
 datasets that were used can be found [here](https://shahariarrabby.github.io/ekush/#download).
 
@@ -28,7 +29,7 @@ exits the application, and the image is then saved and classified using one of t
 models. Once classified, the application shows the top three possible classes the image lies
 within along with the corresponding confidence the model has for those decisions.
 
-## 2. Technologies Used
+## 2. Technologies Used 
 * [Python](https://www.python.org/)
 * [TensorFlow](https://www.tensorflow.org/)
 * [Google Colabs](https://research.google.com/colaboratory)
@@ -93,4 +94,5 @@ and clear with right click. Once done drawing exit the application and view the 
 the results.
 
 ## 6. Status
+Last updated 14/05/2021
 Version 1.4
